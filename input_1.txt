@@ -1,0 +1,10 @@
+(comment
+Пример конфигурации
+)
+
+name <- "Example Project"
+version <- 1
+features <- {true, false, true}
+settings <- $[
+    key1: "value1"
+]

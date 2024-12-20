@@ -1,0 +1,9 @@
+(comment
+Это многострочный комментарий
+)
+name <- "Test"
+value <- {1, 2, 3}
+dict <- $[
+    key1: "value1",
+    key2: 42
+]

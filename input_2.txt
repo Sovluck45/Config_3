@@ -1,0 +1,43 @@
+(comment
+Пример более сложной конфигурации
+)
+
+# Строковые данные
+project_name <- "Super Project"
+
+# Числовые данные
+version <- 2
+
+# Массив строк
+contributors <- {"Alice", "Bob", "Charlie"}
+
+# Словарь с вложенными структурами
+settings <- $[
+    debug: true,
+    max_connections: 10,
+    database: $[
+        host: "localhost",
+        port: 5432,
+        credentials: $[
+            user: "admin",
+            password: "secret"
+        ]
+    ]
+]
+
+# Массив чисел
+metrics <- {100, 200, 300, 400, 500}
+
+(comment
+Вложенный словарь внутри массива
+)
+complex_data <- {
+    $[
+        name: "Dataset 1",
+        values: {1, 2, 3}
+    ],
+    $[
+        name: "Dataset 2",
+        values: {4, 5, 6}
+    ]
+}

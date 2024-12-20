@@ -1,0 +1,9 @@
+{
+    "name": "Example Project",
+    "version": 1,
+    "features": [
+        true,
+        false,
+        true
+    ]
+}
